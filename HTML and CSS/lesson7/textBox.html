@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search Bar</title>
+
+    <style>
+
+        .searchBar input{
+            
+            padding: 10px;
+            border-radius: 9px ;
+            border: solid;
+            border-width: 1px;
+            border-color: rgb(200, 198, 198);
+        }
+        .searchBarShadow input{
+            padding: 10px;
+            border-radius: 50px ;
+            border: none;
+            width: 400px;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+        }
+
+
+        .searchBarlinkedin{
+            border: 1px solid black;
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+            width: 450px;
+            
+        }
+        .searchBarlinkedin p:first-child{
+            margin-bottom: 3px;
+        }
+        .searchBarlinkedin input{
+            padding: 10px;
+            border: 2px solid gray;
+            border-radius: 4px;
+            width: 95%;
+        }
+        .searchBarlinkedin button{
+            border-radius: 30px;
+            background-color: rgb(24, 84, 205);
+            width: 100%;
+            padding: 14px 20px;
+            color: white;
+            border: none;
+            font-size: 20px;
+            text-align: center;
+
+        }
+        .Tweet{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .Tweet img{
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            object-position: left;
+            vertical-align: top;
+            border-radius: 50%;
+        }
+        .Tweet input{
+            border: none ;
+            width: 280px;
+            font-size: 23px;
+            padding: 20px 15px;
+            border-radius: 50px;
+            
+        }
+        .Tweet button{
+            background-color: rgb(62, 168, 238);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px 20px;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="searchBar">
+        <input class="textOne" type="text" placeholder="Search">
+    </div>
+    <hr>
+    <div class="searchBarShadow">
+        <input class="textOne" type="text" placeholder="Search Google or type a URL">
+
+    </div>
+    <hr>
+    <div class="searchBarlinkedin">
+
+        <p>Email</p>
+        <input class="textOne" type="text" >
+        <p>By Clicking Agree & Join, you agree to the Privacy Policy.</p>
+        <button>Agree & Join</button>
+    </div>
+    <hr>
+    <div class="Tweet" >
+    <img src="java assiment.webp" alt="">
+    <input  type="text" placeholder="What's happening?">
+        <button>Tweet</button>
+    </div>
+</body>
+</html>

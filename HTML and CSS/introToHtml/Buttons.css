@@ -1,0 +1,55 @@
+a{
+    margin: 4px;
+}
+#pagination button{
+    margin: 1px;
+
+}
+
+#strech button{
+    background-color: green;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+#strech button:hover{
+    padding: 18px 30px ;
+}
+
+#Click button{
+    background-color: green;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s;
+    box-shadow: 3px 3px 4px rgb(0, 0, 0,0.5) ;
+
+}
+#Click button:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    /* margin-bottom: 0px; */
+    box-shadow: none ;
+}
+
+#Margin button{
+    background-color: green;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15s,
+    margin 0.15s ;
+
+}
+#Margin button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
