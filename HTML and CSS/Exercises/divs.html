@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+        *{
+            font-family: Arial;
+        }
+        .div1{
+            border: 1px solid gray;
+            width: 500px;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+
+        }
+        .div1 input{
+            padding: 5px 5px;
+            width: 58%;
+            font-size: 19px;
+            border: none;
+            margin-left: 0px;
+            margin-right: 10px;
+        }
+        .div1 img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            vertical-align: middle;
+            margin: 13px;
+            margin-right:5px ;
+            object-fit: cover;
+        }
+        .div1 button{
+            background-color: #50a3ed;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 10px 20px;
+            font-weight: bold;
+            font-size: 15px;
+            margin-right: 0px;
+        }
+
+        .div2{
+            border: 1px solid gray;
+            width: 190px;
+            margin-top: 40px;
+            box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            border: none;
+            margin-right: 10px;
+
+        }
+        .div2 img{
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            margin-bottom: 0px;
+
+        }
+        .div2 .name{
+            font-weight: bold;
+            margin-left: 10px;
+            margin-bottom: 4px;
+            margin-top: 4px;
+        }
+        .div2 .gray{
+            margin-left: 10px;
+            margin-bottom: 6px;
+            margin-top: 6px;
+            color: gray;
+            font-size: 14px;
+
+        }
+        .div2 button{
+            margin-left: 10px;
+            margin-bottom: 10px;
+            background-color: #4175d5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="div1">
+        <img src="img1.jpg" alt="">
+        <input type="text" placeholder="What's happening? " >
+        <button>Tweet</button>
+    </div>
+    <div>
+        <div class="div2">
+            <img src="img1.jpg" alt="">
+            <p class="name">Oliver</p>
+            <p class="gray">2 mutual friends</p>
+            <button>Add Friend</button>
+        </div>
+        <div class="div2">
+            <img src="img2.jpeg" alt="">
+            <p class="name">Mimi</p>
+            <p class="gray">3 mutual friends</p>
+            <button>Add Friend</button>
+        </div>    <div class="div2">
+            <img src="img3.jpg" alt="">
+            <p class="name">Rex</p>
+            <p class="gray">4 mutual friends</p>
+            <button>Add Friend</button>
+        </div>
+    </div>
+</body>
+</html>
