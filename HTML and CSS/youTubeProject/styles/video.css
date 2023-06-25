@@ -1,8 +1,4 @@
-p{
-    font-family: Roboto, Arial;
-    margin-top: 0;
-    margin-bottom: 0;
-}
+
 .imag1{
     width: 100%;
 }
@@ -47,11 +43,7 @@ margin-bottom: 8px ;
     column-gap: 16px;
     row-gap: 40px;
 }
-.searchBar{
-    display: block;
-    
 
-}
 /* .profilePic{
     background-color: gray;
 }
