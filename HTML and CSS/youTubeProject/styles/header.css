@@ -26,6 +26,7 @@
 .searchBar{
     flex: 1;
     height: 37px;
+    width: 0;
     padding-left: 10px;
     font-size: 15px;
     border: 1px solid rgb(192, 192, 192);
