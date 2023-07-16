@@ -2,6 +2,19 @@
 .imag1{
     width: 100%;
 }
+
+.videoTime{
+    position: absolute;
+    font-family: Roboto, Arial ;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
+    border-radius: 2px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    right: 5px;
+    bottom: 8px;
+}
 .videoTitle{
 font-size: 14px;
 font-weight: 500;
@@ -39,8 +52,8 @@ margin-bottom: 8px ;
 
 /* .profilePic{
     background-color: gray;
-}
-.videoDetails{
+} */
+/* .videoDetails{
     background-color: gray;
 } */
 .img2{
@@ -49,4 +62,5 @@ margin-bottom: 8px ;
 }
 .previewSection{
     margin-bottom: 12px;
+    position: relative;
 }
