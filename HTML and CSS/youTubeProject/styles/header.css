@@ -67,8 +67,27 @@
     border:1px solid rgb(192, 192, 192);
     margin-left: -2px;
     margin-right: 10px;
+    position: relative;
 }
-
+.searchButton .tooltip,
+.VoiceButton .tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px ;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    
+}
+.searchButton:hover .tooltip,
+.VoiceButton:hover .tooltip{
+    opacity: 1;
+}
 
 .searchIcon{
     height: 25px;
@@ -117,8 +136,11 @@
     width: 40px;
     border-radius: 20px ;
     background-color: rgb(248, 248, 248);
+    position: relative;
+
 
 }
+
 .voiceSerach{
     height: 24px;
     margin-top: 4px;

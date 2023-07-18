@@ -16,6 +16,8 @@ body{
     column-gap: 16px;
     row-gap: 40px;
     padding-top: 70px;
-    padding-left: 85px;
+    padding-left: 96px;
+    padding-right: 24px;
+    background-color: rgb(247, 247, 247);
 
 }

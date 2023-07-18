@@ -16,10 +16,11 @@
     bottom: 8px;
 }
 .videoTitle{
-font-size: 14px;
-font-weight: 500;
-line-height: 18px;
-margin-bottom: 8px ;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px ;
 
 }
 .videoAuthor , .videoStats{
@@ -57,10 +58,10 @@ margin-bottom: 8px ;
     background-color: gray;
 } */
 .img2{
-    width: 40px ;
+    width: 36px ;
     border-radius: 50%;
 }
 .previewSection{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
 }

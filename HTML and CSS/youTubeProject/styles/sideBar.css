@@ -2,15 +2,37 @@
 .sideBar{
     background-color: white;
     position: fixed;
-    width: 70px;
+    width: 77px;
     left: 0;
     top: 55px;
     bottom: 0;
-    border-right: 1px solid rgb(225, 225, 225);
+    z-index: 200;
+    padding-top: 5px ;
 
 }
 
 
-.sideBarIcon{
-    
+.sideBarLink{
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sideBarLink div{
+    font-family: Roboto,Arial;
+    font-size: 10px;
+}
+
+.sideBarLink:hover{
+    background-color: rgb(237, 237, 237);
+}
+
+.sideBarLink img{
+    height: 25px;
+    margin-bottom: 4px;
+
+
 }
